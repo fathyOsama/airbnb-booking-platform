@@ -1,0 +1,19 @@
+@import "./../../../../../../assets/scss/airbnb-variables";
+
+::ng-deep .autocomplete-airbnb {
+  width: 400px !important;
+}
+
+::ng-deep .country-panel {
+  width: 350px;
+}
+
+::ng-deep .map-location {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  z-index: 0;
+  cursor: default;
+}
